@@ -70,7 +70,9 @@ export default function Header() {
           </div>
 
           <nav
-            className={`${openNavbar ? "hidden" : undefined} md:block`}
+            className={`${
+              openNavbar ? "hidden" : ""
+            } md:block ease-in duration-300`}
             id="navbar-default"
           >
             <ul className="flex flex-col text-lg px-4 md:flex-row md:justify-between md:text-base">
