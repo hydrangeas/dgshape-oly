@@ -1,0 +1,18 @@
+body:has(.fullscreen-menu) {
+  overflow: hidden;
+}
+.fullscreen-menu > header > div {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+.fullscreen-menu > header > div > nav {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+}

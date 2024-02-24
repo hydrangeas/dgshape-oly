@@ -1,14 +1,14 @@
 "use client";
 
 import Image from "next/image";
-import { Navbar } from "flowbite-react";
-import Link from "next/link";
-import { useState } from "react";
+import "./styles.css";
+import { useAtom } from "jotai";
+import { openNavbarAtom } from "@/components/atoms";
 
 export default function Header() {
-  const [openNavbar, setOpenNavbar] = useState(false);
+  const [openNavbar, setOpenNavbar] = useAtom(openNavbarAtom);
   const toggleNavbar = () => {
-    setOpenNavbar(!openNavbar);
+    setOpenNavbar((openNavbar) => !openNavbar);
   };
 
   return (
@@ -71,12 +71,12 @@ export default function Header() {
 
           <nav
             className={`${
-              openNavbar ? "hidden" : ""
+              openNavbar ? "hidden" : "active"
             } md:block ease-in duration-300`}
             id="navbar-default"
           >
             <ul className="flex flex-col text-lg px-4 md:flex-row md:justify-between md:text-base">
-              <li className="p-8 bg-gray-500 text-gray-100 md:p-0 md:bg-transparent md:text-gray-500 ">
+              <li className="p-8 bg-gray-500 text-gray-100 md:p-0 md:bg-transparent md:text-gray-500">
                 <a href="#">オンラインショップ</a>
               </li>
               <li className="p-8 bg-gray-500 text-gray-100 md:p-0 md:bg-transparent md:text-gray-500">
