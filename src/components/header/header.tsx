@@ -76,19 +76,19 @@ export default function Header() {
             id="navbar-default"
           >
             <ul className="flex flex-col text-lg px-4 md:flex-row md:justify-between md:text-base">
-              <li className="p-8 bg-gray-500 text-gray-100 md:p-0 md:bg-transparent md:text-gray-500">
+              <li className="p-8 bg-gray-500 text-gray-100 text-center md:p-0 md:bg-transparent md:text-gray-500">
                 <a href="#">オンラインショップ</a>
               </li>
-              <li className="p-8 bg-gray-500 text-gray-100 md:p-0 md:bg-transparent md:text-gray-500">
+              <li className="p-8 bg-gray-500 text-gray-100 text-center md:p-0 md:bg-transparent md:text-gray-500">
                 <a href="#">製品</a>
               </li>
-              <li className="p-8 bg-gray-500 text-gray-100 md:p-0 md:bg-transparent md:text-gray-500">
+              <li className="p-8 bg-gray-500 text-gray-100 text-center md:p-0 md:bg-transparent md:text-gray-500">
                 <a href="#">サポート</a>
               </li>
-              <li className="p-8 bg-gray-500 text-gray-100 md:p-0 md:bg-transparent md:text-gray-500">
+              <li className="p-8 bg-gray-500 text-gray-100 text-center md:p-0 md:bg-transparent md:text-gray-500">
                 <a href="#">ニュース</a>
               </li>
-              <li className="p-8 bg-gray-500 text-gray-100 md:p-0 md:bg-transparent md:text-gray-500">
+              <li className="p-8 bg-gray-500 text-gray-100 text-center md:p-0 md:bg-transparent md:text-gray-500">
                 <a href="#">企業情報</a>
               </li>
             </ul>
