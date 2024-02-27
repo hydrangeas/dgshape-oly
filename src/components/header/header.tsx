@@ -13,7 +13,7 @@ export default function Header() {
 
   return (
     <>
-      <header>
+      <header className="mb-8">
         <div className="md:container xl:max-w-5xl mx-auto flex flex-col">
           <div className="flex justify-between w-full">
             <div className="brand-logo px-4 pt-4 md:p-4">

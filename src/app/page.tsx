@@ -2,6 +2,7 @@
 
 import { openNavbarAtom } from "@/components/atoms";
 import Header from "@/components/header/header";
+import Hero from "@/components/hero/hero";
 import { useAtom } from "jotai";
 
 export default function Home() {
@@ -9,8 +10,7 @@ export default function Home() {
   return (
     <div className={openNavbar ? "" : "fullscreen-menu bg-gray-500"}>
       <Header />
-      <h1>Home</h1>
-      <div>test</div>
+      <Hero />
     </div>
   );
 }
